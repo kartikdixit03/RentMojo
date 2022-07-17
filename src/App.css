@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display:block;
+  height: 40px;
+  flex-direction:row;
+  background-color:#161e35;
+  color: white;
+  font-size:30px;
+  padding:20px;
+  padding-top:22px;
+  text-align:center;
+  font-weight:bold;
+  box-shadow: 0 3px 6px 0 #555;
+}
+
+.searchBox {
+  display : flex;
+flex-direction: row;
+padding: 15px ;
+background-color: white;
+margin: 20px 60% 20px 33%;
+align-items: centre;
+width: 30%;
+justify-content: centre;
+border-radius:40px;
+border-color: black;
+}
+
+.searchInput {
+  color: black;
+  font-size: 16px;
+  height:5vh;
+  width:45vh;
+  border-radius: 50px;
+  outline: none;
+  margin-left:8px;
+  margin-top: 5px;
+  box-shadow: 0 3px 6px 0 #555;
+  background-color:#A6B2;
+}
