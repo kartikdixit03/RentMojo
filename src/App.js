@@ -28,6 +28,7 @@ function App() {
     UpdateSearchQuery(event.target.value);
     const timeout = setTimeout(() => fetchData(event.target.value), 500);
     updateTimeoutID(timeout);
+    
   };
 
   return (
